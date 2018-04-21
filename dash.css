@@ -223,9 +223,23 @@ button.button-icon,
 input[type="submit"].button-icon,
 input[type="reset"].button-icon,
 input[type="button"].button-icon {
-  color: #FFF;
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: #555;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
   background-color: transparent;
-  border-color: transparent; }
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  box-sizing: border-box; }
 .button.button-icon:hover,
 button.button-icon:hover,
 input[type="submit"].button-icon:hover,
