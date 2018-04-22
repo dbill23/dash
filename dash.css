@@ -225,7 +225,7 @@ input[type="reset"].button-icon,
 input[type="button"].button-icon {
   display: inline-block;
   height: 38px;
-  padding: 0 30px;
+  padding: 0 2px;
   color: #555;
   text-align: center;
   font-size: 11px;
